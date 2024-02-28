@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: master
+          default-label: gateway
           uri: https://github.com/oscarje/uns-microservicio
           search-paths: config-data
   application:
