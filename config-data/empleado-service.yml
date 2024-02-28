@@ -11,14 +11,5 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
     health-check-url-path: /actuator/health
 
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/dbempleados
-    username: postgres
-    password: 12345
-  jpa:
-    hibernate:
-      ddl-auto: update
-
 application:
   zipkin: http://localhost:9411
