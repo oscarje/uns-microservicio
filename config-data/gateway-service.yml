@@ -30,3 +30,7 @@ spring:
           uri: lb://empleado-service
           predicates:
             - Path=/empleado/**
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
